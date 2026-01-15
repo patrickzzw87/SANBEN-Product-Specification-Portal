@@ -34,7 +34,7 @@ const PRODUCT_F_TYPE: ProductConfig = {
   name: 'F-Type Track Spotlight Series',
   model: 'SR-LSP-36F 04',
   series: 'F-Type 04 Series',
-  appType: 'Commercial Lighting',
+  appType: 'Commercial Lighting / 商业照明',
   docRev: 'B01',
   imageUrl: '',
   descriptionPrompt: `
@@ -43,19 +43,19 @@ const PRODUCT_F_TYPE: ProductConfig = {
     Specs: 36W, 220-240V, PF>0.9.
     Tone: Technical, architectural.
   `,
-  defaultDescription: "The SR-LSP-36F 04 is a high-performance LED track spotlight designed for professional commercial lighting applications. It features a high-efficiency COB light source with a CRI of ≥90, ensuring accurate color rendering. Powered by a flicker-free, isolated constant current driver, it delivers stable illumination with a system efficacy of up to 115 lm/W. The die-cast aluminum housing provides excellent thermal management for a long service life.",
+  defaultDescription: "The SR-LSP-36F 04 is a high-performance LED track spotlight designed for professional commercial lighting applications. It features a high-efficiency COB light source with a CRI of ≥90, ensuring accurate color rendering. Powered by a flicker-free, isolated constant current driver, it delivers stable illumination with a system efficacy of up to 115 lm/W. The die-cast aluminum housing provides excellent thermal management for a long service life.\n\nSR-LSP-36F 04 是一款专为专业商业照明设计的高性能LED导轨射灯。采用高光效COB光源（CRI≥90），确保精准的色彩还原。搭载无频闪隔离恒流驱动，提供稳定的照明输出，系统光效高达115 lm/W。压铸铝外壳提供卓越的散热性能，确保超长使用寿命。",
   electrical: {
     inputVoltage: '220-240V AC', // PDF: 220..240
     inputCurrent: 'Max 220 mA',
     ratedPower: '36W',
     powerFactor: '> 0.90', // PDF: >0.90
     thd: '≤ 20%', // PDF: <=20
-    driverClass: 'Isolated, Flicker-Free'
+    driverClass: 'Isolated, Flicker-Free / 隔离无频闪'
   },
   mechanical: {
-    material: 'Die-cast Aluminum', // Implied by housing quality
-    finish: 'Powder Coat (Black/White)',
-    optic: 'Reflector / Lens',
+    material: 'Die-cast Aluminum / 压铸铝', // Implied by housing quality
+    finish: 'Powder Coat (Black/White) / 粉末喷涂',
+    optic: 'Reflector / Lens / 反光杯/透镜',
     adjustability: '350° Pan / 90° Tilt',
     ip: 'IP20',
     weight: 'N/A' // Not in PDF
@@ -94,7 +94,7 @@ const PRODUCT_LD5: ProductConfig = {
   name: 'LED Embedded Spotlight',
   model: 'SR-LD5-36C16',
   series: 'C16 Embedded Series',
-  appType: 'Commercial / Hotel / Retail',
+  appType: 'Commercial / Hotel / Retail (商场/酒店)',
   docRev: 'A0',
   imageUrl: '',
   descriptionPrompt: `
@@ -103,19 +103,19 @@ const PRODUCT_LD5: ProductConfig = {
     Specs: Cutout 125mm, 36W, 3-step SDCM.
     Tone: Technical, reliable, versatile.
   `,
-  defaultDescription: "The SR-LD5 Series is a high-performance LED recessed spotlight designed for flexible commercial lighting. Featuring a robust die-cast aluminum heatsink and a precision optical system, it offers 355° horizontal rotation and 30° vertical tilt for targeted illumination. With a CRI of over 90 and high luminous efficacy, it ensures vibrant and accurate color rendering for merchandise and architectural details.",
+  defaultDescription: "The SR-LD5 Series is a high-performance LED recessed spotlight designed for flexible commercial lighting. Featuring a robust die-cast aluminum heatsink and a precision optical system, it offers 355° horizontal rotation and 30° vertical tilt for targeted illumination. With a CRI of over 90 and high luminous efficacy, it ensures vibrant and accurate color rendering for merchandise and architectural details.\n\nSR-LD5系列是一款专为灵活商业照明设计的高性能LED嵌入式射灯。具备坚固的压铸铝散热器和精密光学系统，支持355°水平旋转和30°垂直调节。CRI超过90且光效极高，确保商品和建筑细节的色彩生动还原。",
   electrical: {
     inputVoltage: '220-240V AC',
     inputCurrent: 'Max 160 mA',
     ratedPower: '36W',
     powerFactor: '> 0.90',
     thd: '≤ 20%',
-    driverClass: 'Class II, Isolated'
+    driverClass: 'Class II, Isolated / 隔离'
   },
   mechanical: {
-    material: 'Die-cast Aluminum',
-    finish: 'Powder Coat (White/Black)',
-    optic: 'Reflector + Lens',
+    material: 'Die-cast Aluminum / 压铸铝',
+    finish: 'Powder Coat (White/Black) / 粉末喷涂',
+    optic: 'Reflector + Lens / 反光杯+透镜',
     adjustability: '355° Pan / 30° Tilt',
     ip: 'IP20',
     weight: 'N/A', // Not in PDF
@@ -156,7 +156,7 @@ const PRODUCT_WM_SERIES: ProductConfig = {
   name: 'WM Series Anti-glare Downlight',
   model: 'SR-LD8-50B01',
   series: 'WM Die-cast Series',
-  appType: 'Office / Mall / Airport',
+  appType: 'Office / Mall / Airport (办公/商场/机场)',
   docRev: 'A0',
   imageUrl: '',
   descriptionPrompt: `
@@ -165,20 +165,20 @@ const PRODUCT_WM_SERIES: ProductConfig = {
     Specs: 4350-4850lm, CRI > 80, Cutout 205mm.
     Tone: Industrial, robust, high-performance.
   `,
-  defaultDescription: "The WM Series SR-LD8 is a high-power 8-inch embedded downlight engineered for expansive commercial environments. Constructed with a heavy-duty die-cast aluminum heat sink, it ensures optimal thermal dissipation for its 50W output. The deep anti-glare optical design achieves a UGR of less than 22, providing visual comfort alongside powerful illumination suitable for high-ceiling applications like airports and shopping malls.",
+  defaultDescription: "The WM Series SR-LD8 is a high-power 8-inch embedded downlight engineered for expansive commercial environments. Constructed with a heavy-duty die-cast aluminum heat sink, it ensures optimal thermal dissipation for its 50W output. The deep anti-glare optical design achieves a UGR of less than 22, providing visual comfort alongside powerful illumination suitable for high-ceiling applications like airports and shopping malls.\n\nWM系列 SR-LD8 是一款专为大型商业环境设计的高功率8英寸嵌入式筒灯。采用重型压铸铝散热器，确保50W输出的最佳散热。深度防眩光光学设计（UGR<22）在提供强劲照明的同时保证视觉舒适，适用于机场和商场等高天花板应用。",
   electrical: {
     inputVoltage: '220V AC',
     inputCurrent: '300 mA',
     ratedPower: '50W ±10%',
     powerFactor: '0.95',
     thd: '≤ 15%', // PDF: <=15 for <=42W, but <=20 for 50W.
-    driverClass: 'SELV Isolated, Constant Current'
+    driverClass: 'SELV Isolated / 隔离恒流'
   },
   mechanical: {
-    material: 'Die-cast Aluminum',
-    finish: 'Powder Coat (White)',
-    optic: 'Anti-glare Reflector',
-    adjustability: 'Fixed',
+    material: 'Die-cast Aluminum / 压铸铝',
+    finish: 'Powder Coat (White) / 粉末喷涂(白)',
+    optic: 'Anti-glare Reflector / 防眩反光杯',
+    adjustability: 'Fixed / 固定',
     ip: 'IP20',
     weight: 'N/A', // Not in PDF
     cutout: 'Ø 205mm'
@@ -213,7 +213,7 @@ const PRODUCT_PANEL_SERIES: ProductConfig = {
   name: 'LED Back-lit Panel Light',
   model: 'SR-LPL-6060',
   series: 'LPL Series',
-  appType: 'Office / School / Hospital',
+  appType: 'Office / School / Hospital (办公/学校/医院)',
   docRev: 'A0',
   imageUrl: '',
   descriptionPrompt: `
@@ -222,20 +222,20 @@ const PRODUCT_PANEL_SERIES: ProductConfig = {
     Specs: 36W, 4320lm, 595x595mm size, IP40.
     Tone: Professional, efficient, commercial.
   `,
-  defaultDescription: "The SR-LPL Series is a high-efficiency back-lit LED panel designed for modern office and educational environments. Utilizing premium Sanan SMD2835 chips and a high-quality LIFUD driver, it delivers an impressive 120lm/W efficacy with a flicker-free output (<3%). The robust iron backplate and aluminum frame construction ensure effective thermal management, while the PS diffuser provides uniform, glare-reduced illumination (UGR<22).",
+  defaultDescription: "The SR-LPL Series is a high-efficiency back-lit LED panel designed for modern office and educational environments. Utilizing premium Sanan SMD2835 chips and a high-quality LIFUD driver, it delivers an impressive 120lm/W efficacy with a flicker-free output (<3%). The robust iron backplate and aluminum frame construction ensure effective thermal management, while the PS diffuser provides uniform, glare-reduced illumination (UGR<22).\n\nSR-LPL系列是专为现代办公和教育环境设计的高效直下式LED面板灯。采用优质三安SMD2835芯片和高品质LIFUD驱动，光效高达120lm/W且无频闪（<3%）。坚固的铁背板和铝框结构确保有效散热，PS扩散板提供均匀、低眩光（UGR<22）的照明。",
   electrical: {
     inputVoltage: '220-240V AC',
     inputCurrent: '900 mA (Output)',
     ratedPower: '36W ±5%',
     powerFactor: '> 0.9',
     thd: '≤ 15%',
-    driverClass: 'LIFUD / Flicker-Free'
+    driverClass: 'LIFUD / Flicker-Free / 无频闪'
   },
   mechanical: {
-    material: 'Aluminum Frame + Iron Backplate',
-    finish: 'Powder Coat (White)',
-    optic: 'PS Diffuser + PMMA Lens',
-    adjustability: 'None',
+    material: 'Aluminum Frame + Iron Backplate / 铝框+铁底板',
+    finish: 'Powder Coat (White) / 粉末喷涂(白)',
+    optic: 'PS Diffuser + PMMA Lens / PS扩散+PMMA透镜',
+    adjustability: 'None / 无',
     ip: 'IP40',
     weight: '2.0 kg',
     cutout: 'N/A (T-Grid/Surface)'
@@ -270,7 +270,7 @@ const PRODUCT_TRACK_RAIL: ProductConfig = {
   name: '3-Line Power Track System',
   model: 'Three Line 01 Style',
   series: 'Track Accessories',
-  appType: 'Retail / Gallery / Showroom',
+  appType: 'Retail / Gallery / Showroom (零售/画廊/展厅)',
   docRev: 'A/2',
   imageUrl: '',
   descriptionPrompt: `
@@ -279,7 +279,7 @@ const PRODUCT_TRACK_RAIL: ProductConfig = {
     Specs: AC100-240V, 15A/10A, 1 Meter standard length.
     Tone: Industrial, technical, safety-focused.
   `,
-  defaultDescription: "The Three Line 01 Style is a robust 3-line power track system designed for versatile commercial lighting installations. Constructed from premium aluminum alloy with a flame-retardant PVC insulation strip, it features high-conductivity copper busbars (3.8mm x 0.8mm) to ensure stable power transmission. The system supports a maximum load current of 15A (100V) or 10A (220V) and is compatible with a wide range of track adapters.",
+  defaultDescription: "The Three Line 01 Style is a robust 3-line power track system designed for versatile commercial lighting installations. Constructed from premium aluminum alloy with a flame-retardant PVC insulation strip, it features high-conductivity copper busbars (3.8mm x 0.8mm) to ensure stable power transmission. The system supports a maximum load current of 15A (100V) or 10A (220V) and is compatible with a wide range of track adapters.\n\n三线01款是一款坚固的3线电源导轨系统，专为多功能商业照明安装设计。由优质铝合金和阻燃PVC绝缘条制成，配有高导电铜汇流排（3.8mm x 0.8mm）以确保稳定的电力传输。支持最大负载电流15A（100V）或10A（220V），兼容多种导轨适配器。",
   electrical: {
     inputVoltage: 'AC 100-240V, 50/60Hz',
     inputCurrent: '15A (100V) / 10A (220V)',
@@ -289,9 +289,9 @@ const PRODUCT_TRACK_RAIL: ProductConfig = {
     driverClass: 'Passive Conductor'
   },
   mechanical: {
-    material: 'Aluminum Alloy + Copper + PVC',
-    finish: 'Powder Coat (Black/White)',
-    optic: 'PVC Insulation',
+    material: 'Aluminum Alloy + Copper + PVC / 铝合金+铜+PVC',
+    finish: 'Powder Coat (Black/White) / 粉末喷涂',
+    optic: 'PVC Insulation / PVC绝缘',
     adjustability: 'N/A',
     ip: 'IP20',
     weight: 'N/A',
@@ -692,8 +692,8 @@ const SpecSheet: React.FC<{ product: ProductConfig; customDescription?: string; 
                   <div className="text-4xl font-black text-brand-600 tracking-tighter italic" style={{fontFamily: 'Arial, sans-serif'}}>SANBEN</div>
                   <div className="text-xs font-bold text-gray-400 self-start mt-1">®</div>
               </div>
-              <div className="text-[10px] text-gray-500 font-bold uppercase tracking-widest mt-1">China Leading Retail Lighting Brand</div>
-              <div className="text-[9px] text-gray-400 uppercase tracking-wider mt-0.5">Focusing on Commercial Lighting for 20 Years</div>
+              <div className="text-[10px] text-gray-500 font-bold uppercase tracking-widest mt-1">China Leading Retail Lighting Brand <span className="text-gray-400 font-normal">中国领先商业照明品牌</span></div>
+              <div className="text-[9px] text-gray-400 uppercase tracking-wider mt-0.5">Focusing on Commercial Lighting for 20 Years <span className="text-gray-300">专注商业照明20年</span></div>
             </div>
             <div className="text-right text-xs text-gray-400">
               <div>Doc: {product.model}-SPEC</div>
@@ -712,16 +712,16 @@ const SpecSheet: React.FC<{ product: ProductConfig; customDescription?: string; 
                   <div className="space-y-6 mb-12 border-b border-gray-100 pb-8">
                       <div className="grid grid-cols-2 gap-8">
                           <div>
-                            <div className="text-xs font-bold text-gray-400 uppercase tracking-wider">Product Model</div>
+                            <div className="text-xs font-bold text-gray-400 uppercase tracking-wider">Product Model <span className="font-normal text-gray-300">产品型号</span></div>
                             <div className="font-semibold text-2xl text-slate-800">{product.model}</div>
                           </div>
                           <div>
-                            <div className="text-xs font-bold text-gray-400 uppercase tracking-wider">Application</div>
+                            <div className="text-xs font-bold text-gray-400 uppercase tracking-wider">Application <span className="font-normal text-gray-300">应用场景</span></div>
                             <div className="font-semibold text-xl text-slate-800">{product.appType}</div>
                           </div>
                       </div>
                       <div>
-                          <div className="text-xs font-bold text-gray-400 uppercase tracking-wider">Key Spec</div>
+                          <div className="text-xs font-bold text-gray-400 uppercase tracking-wider">Key Spec <span className="font-normal text-gray-300">主要参数</span></div>
                           <div className="font-semibold text-lg text-slate-800">
                               {product.electrical.ratedPower} 
                               {product.optical && ` | CRI90+`}
@@ -730,15 +730,15 @@ const SpecSheet: React.FC<{ product: ProductConfig; customDescription?: string; 
                   </div>
                   
                   <div className="mb-12">
-                      <div className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-4">Product Description</div>
-                      <div className="text-base text-gray-600 leading-relaxed italic border-l-4 border-brand-600 pl-6 py-2">
+                      <div className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-4">Product Description <span className="font-normal text-gray-300">产品描述</span></div>
+                      <div className="text-base text-gray-600 leading-relaxed italic border-l-4 border-brand-600 pl-6 py-2 whitespace-pre-line">
                           {customDescription || product.defaultDescription}
                       </div>
                   </div>
                   
                   {/* Brand Heritage Section with new Visual */}
                   <div className="mt-12">
-                      <div className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Brand Heritage</div>
+                      <div className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Brand Heritage <span className="font-normal text-gray-300">品牌传承</span></div>
                       <div className="h-48 w-full overflow-hidden rounded-lg border border-gray-200 shadow-md">
                           <BirdsNestHero />
                       </div>
@@ -775,43 +775,44 @@ const SpecSheet: React.FC<{ product: ProductConfig; customDescription?: string; 
       <section className="mb-12 min-h-[285mm]">
         <div className="flex items-center gap-4 mb-8 border-b-2 border-brand-100 pb-2">
           <div className="h-8 w-1 bg-brand-600"></div>
-          <h2 className="text-xl font-bold text-slate-900">1. Technical Specifications</h2>
+          <h2 className="text-xl font-bold text-slate-900">1. Technical Specifications <span className="text-base font-normal text-gray-400 ml-2">技术参数</span></h2>
         </div>
 
         <div className="grid grid-cols-2 gap-x-12 gap-y-8 mb-12">
             <div>
                 <h3 className="font-bold text-slate-800 mb-3 text-sm uppercase tracking-wide">
                   {product.optical ? '1.1 Electrical Data' : '1.1 System Parameters'}
+                  <span className="block text-[10px] font-normal text-gray-400 capitalize">{product.optical ? '电气参数' : '系统参数'}</span>
                 </h3>
                 <table className="w-full text-xs">
                   <tbody>
                     <tr className="border-b border-gray-200">
-                      <td className="py-2 text-gray-500">{product.optical ? 'Input Voltage' : 'Rated Voltage'}</td>
-                      <td className="py-2 font-mono text-right">{product.electrical.inputVoltage}</td>
+                      <td className="py-2 text-gray-500">{product.optical ? 'Input Voltage' : 'Rated Voltage'} <span className="text-[10px] text-gray-300 block">输入电压</span></td>
+                      <td className="py-2 font-mono text-right align-top">{product.electrical.inputVoltage}</td>
                     </tr>
                     <tr className="border-b border-gray-200">
-                      <td className="py-2 text-gray-500">{product.optical ? 'Input Current' : 'Max Current'}</td>
-                      <td className="py-2 font-mono text-right">{product.electrical.inputCurrent}</td>
+                      <td className="py-2 text-gray-500">{product.optical ? 'Input Current' : 'Max Current'} <span className="text-[10px] text-gray-300 block">输入电流</span></td>
+                      <td className="py-2 font-mono text-right align-top">{product.electrical.inputCurrent}</td>
                     </tr>
                     <tr className="border-b border-gray-200">
-                      <td className="py-2 text-gray-500">{product.optical ? 'Rated Power' : 'Max Load'}</td>
-                      <td className="py-2 font-mono text-right">{product.electrical.ratedPower}</td>
+                      <td className="py-2 text-gray-500">{product.optical ? 'Rated Power' : 'Max Load'} <span className="text-[10px] text-gray-300 block">额定功率</span></td>
+                      <td className="py-2 font-mono text-right align-top">{product.electrical.ratedPower}</td>
                     </tr>
                     {product.electrical.powerFactor !== 'N/A' && (
                       <tr className="border-b border-gray-200">
-                          <td className="py-2 text-gray-500">Power Factor</td>
-                          <td className="py-2 font-mono text-right">{product.electrical.powerFactor}</td>
+                          <td className="py-2 text-gray-500">Power Factor <span className="text-[10px] text-gray-300 block">功率因数</span></td>
+                          <td className="py-2 font-mono text-right align-top">{product.electrical.powerFactor}</td>
                       </tr>
                     )}
                     {product.electrical.thd !== 'N/A' && (
                       <tr className="border-b border-gray-200">
-                          <td className="py-2 text-gray-500">THD</td>
-                          <td className="py-2 font-mono text-right">{product.electrical.thd}</td>
+                          <td className="py-2 text-gray-500">THD <span className="text-[10px] text-gray-300 block">总谐波失真</span></td>
+                          <td className="py-2 font-mono text-right align-top">{product.electrical.thd}</td>
                       </tr>
                     )}
                     <tr>
-                      <td className="py-2 text-gray-500">Driver Class</td>
-                      <td className="py-2 font-mono text-right">{product.electrical.driverClass}</td>
+                      <td className="py-2 text-gray-500">Driver Class <span className="text-[10px] text-gray-300 block">驱动类别</span></td>
+                      <td className="py-2 font-mono text-right align-top">{product.electrical.driverClass}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -820,16 +821,17 @@ const SpecSheet: React.FC<{ product: ProductConfig; customDescription?: string; 
             <div>
                 <h3 className="font-bold text-slate-800 mb-3 text-sm uppercase tracking-wide">
                     {product.optical ? '1.2 Mechanical Data' : '1.2 Physical Specifications'}
+                    <span className="block text-[10px] font-normal text-gray-400 capitalize">{product.optical ? '机械参数' : '物理规格'}</span>
                 </h3>
                 <table className="w-full text-xs">
                   <tbody>
-                    <tr className="border-b border-gray-200"><td className="py-2 text-gray-500">Housing Material</td><td className="py-2 text-right">{product.mechanical.material}</td></tr>
-                    <tr className="border-b border-gray-200"><td className="py-2 text-gray-500">Finish</td><td className="py-2 text-right">{product.mechanical.finish}</td></tr>
-                    <tr className="border-b border-gray-200"><td className="py-2 text-gray-500">{product.optical ? 'Optic Material' : 'Insulation Material'}</td><td className="py-2 text-right">{product.mechanical.optic}</td></tr>
-                    <tr className="border-b border-gray-200"><td className="py-2 text-gray-500">Adjustability</td><td className="py-2 text-right">{product.mechanical.adjustability}</td></tr>
-                    <tr className="border-b border-gray-200"><td className="py-2 text-gray-500">Ingress Protection</td><td className="py-2 text-right">{product.mechanical.ip}</td></tr>
-                    {product.mechanical.cutout && <tr className="border-b border-gray-200"><td className="py-2 text-gray-500">Cutout Size</td><td className="py-2 text-right font-bold text-red-500">{product.mechanical.cutout}</td></tr>}
-                    <tr><td className="py-2 text-gray-500">Net Weight</td><td className="py-2 text-right">{product.mechanical.weight}</td></tr>
+                    <tr className="border-b border-gray-200"><td className="py-2 text-gray-500">Housing Material <span className="text-[10px] text-gray-300 block">灯体材质</span></td><td className="py-2 text-right align-top">{product.mechanical.material}</td></tr>
+                    <tr className="border-b border-gray-200"><td className="py-2 text-gray-500">Finish <span className="text-[10px] text-gray-300 block">表面处理</span></td><td className="py-2 text-right align-top">{product.mechanical.finish}</td></tr>
+                    <tr className="border-b border-gray-200"><td className="py-2 text-gray-500">{product.optical ? 'Optic Material' : 'Insulation Material'} <span className="text-[10px] text-gray-300 block">{product.optical ? '光学材质' : '绝缘材质'}</span></td><td className="py-2 text-right align-top">{product.mechanical.optic}</td></tr>
+                    <tr className="border-b border-gray-200"><td className="py-2 text-gray-500">Adjustability <span className="text-[10px] text-gray-300 block">调节角度</span></td><td className="py-2 text-right align-top">{product.mechanical.adjustability}</td></tr>
+                    <tr className="border-b border-gray-200"><td className="py-2 text-gray-500">Ingress Protection <span className="text-[10px] text-gray-300 block">防护等级</span></td><td className="py-2 text-right align-top">{product.mechanical.ip}</td></tr>
+                    {product.mechanical.cutout && <tr className="border-b border-gray-200"><td className="py-2 text-gray-500">Cutout Size <span className="text-[10px] text-gray-300 block">开孔尺寸</span></td><td className="py-2 text-right font-bold text-red-500 align-top">{product.mechanical.cutout}</td></tr>}
+                    <tr><td className="py-2 text-gray-500">Net Weight <span className="text-[10px] text-gray-300 block">净重</span></td><td className="py-2 text-right align-top">{product.mechanical.weight}</td></tr>
                   </tbody>
                 </table>
             </div>
@@ -837,6 +839,7 @@ const SpecSheet: React.FC<{ product: ProductConfig; customDescription?: string; 
 
         <h3 className="font-bold text-slate-800 mb-4 text-sm uppercase tracking-wide">
             {product.optical ? '1.3 Optical Performance' : '1.3 Installation & Packing'}
+            <span className="block text-[10px] font-normal text-gray-400 capitalize">{product.optical ? '光学性能' : '安装与包装'}</span>
         </h3>
         
         {product.optical && product.opticalGraph ? (
@@ -845,12 +848,12 @@ const SpecSheet: React.FC<{ product: ProductConfig; customDescription?: string; 
                   <table className="w-full text-xs">
                       <thead className="bg-gray-50 text-gray-500 font-semibold">
                       <tr>
-                          <th className="p-3 text-left">CCT</th>
-                          <th className="p-3 text-right">Luminous Flux</th>
-                          <th className="p-3 text-right">System Efficacy</th>
-                          <th className="p-3 text-center">CRI</th>
-                          <th className="p-3 text-center">SDCM</th>
-                          <th className="p-3 text-center">Beam Angles</th>
+                          <th className="p-3 text-left">CCT <span className="block text-[9px] font-normal text-gray-300">色温</span></th>
+                          <th className="p-3 text-right">Luminous Flux <span className="block text-[9px] font-normal text-gray-300">光通量</span></th>
+                          <th className="p-3 text-right">System Efficacy <span className="block text-[9px] font-normal text-gray-300">系统光效</span></th>
+                          <th className="p-3 text-center">CRI <span className="block text-[9px] font-normal text-gray-300">显色指数</span></th>
+                          <th className="p-3 text-center">SDCM <span className="block text-[9px] font-normal text-gray-300">色容差</span></th>
+                          <th className="p-3 text-center">Beam Angles <span className="block text-[9px] font-normal text-gray-300">光束角</span></th>
                       </tr>
                       </thead>
                       <tbody className="divide-y divide-gray-100">
@@ -870,11 +873,11 @@ const SpecSheet: React.FC<{ product: ProductConfig; customDescription?: string; 
 
               <div className="grid grid-cols-2 gap-8 items-start mb-8">
                   <div className="bg-white rounded p-4 border border-gray-200">
-                      <h4 className="text-xs font-bold text-gray-400 uppercase mb-4 text-center">Luminous Intensity Distribution ({product.opticalGraph.beamAngle})</h4>
+                      <h4 className="text-xs font-bold text-gray-400 uppercase mb-4 text-center">Luminous Intensity Distribution ({product.opticalGraph.beamAngle}) <span className="block font-normal mt-0.5">配光曲线</span></h4>
                       <PolarChart data={product.opticalGraph.polarData} beamAngle={product.opticalGraph.beamAngle} />
                   </div>
                   <div className="bg-white rounded p-4 border border-gray-200 h-full flex flex-col justify-center">
-                      <h4 className="text-xs font-bold text-gray-400 uppercase mb-4 text-center">Cone Illuminance Diagram</h4>
+                      <h4 className="text-xs font-bold text-gray-400 uppercase mb-4 text-center">Cone Illuminance Diagram <span className="block font-normal mt-0.5">照度图</span></h4>
                       <div className="space-y-4 px-4">
                           {product.opticalGraph.coneData.map((item, idx) => (
                               <div key={idx} className="flex items-center gap-4 text-xs">
@@ -896,12 +899,12 @@ const SpecSheet: React.FC<{ product: ProductConfig; customDescription?: string; 
         ) : (
           <div className="grid grid-cols-2 gap-8 mb-8">
               <div className="bg-gray-50 p-6 rounded border border-gray-200 text-xs text-gray-600">
-                  <h4 className="font-bold text-gray-800 mb-4 uppercase tracking-wide">Installation Instructions</h4>
+                  <h4 className="font-bold text-gray-800 mb-4 uppercase tracking-wide">Installation Instructions <span className="block text-[10px] font-normal text-gray-400">安装说明</span></h4>
                   <p className="leading-relaxed mb-4">
                       {product.installation || "Standard installation applies. Please refer to local regulations."}
                   </p>
                   <div className="border-t border-gray-200 pt-4 mt-2">
-                      <strong className="block mb-1">Safety Alert:</strong>
+                      <strong className="block mb-1">Safety Alert <span className="font-normal text-gray-400 ml-1">安全警告</span>:</strong>
                       <ul className="list-disc pl-4 space-y-1">
                             <li>Disconnect power before installation or maintenance.</li>
                             <li>Ensure all connections are tight and secure.</li>
@@ -913,7 +916,7 @@ const SpecSheet: React.FC<{ product: ProductConfig; customDescription?: string; 
               
               {product.packing && (
                     <div className="bg-white p-6 rounded border border-gray-200 text-xs">
-                      <h4 className="font-bold text-gray-800 mb-4 uppercase tracking-wide">Packing Configuration</h4>
+                      <h4 className="font-bold text-gray-800 mb-4 uppercase tracking-wide">Packing Configuration <span className="block text-[10px] font-normal text-gray-400">包装配置</span></h4>
                       <ul className="space-y-3">
                             {product.packing.map((line, i) => (
                                 <li key={i} className="flex items-center gap-2">
@@ -937,24 +940,27 @@ const SpecSheet: React.FC<{ product: ProductConfig; customDescription?: string; 
       <section className="mb-12">
         <div className="flex items-center gap-4 mb-8 border-b-2 border-brand-100 pb-2">
           <div className="h-8 w-1 bg-brand-600"></div>
-          <h2 className="text-xl font-bold text-slate-900">2. Reliability & Safety</h2>
+          <h2 className="text-xl font-bold text-slate-900">2. Reliability & Safety <span className="text-base font-normal text-gray-400 ml-2">可靠性与安全</span></h2>
         </div>
 
         <div className="mb-10">
-            <h3 className="font-bold text-slate-800 mb-4 text-sm uppercase tracking-wide">2.1 Testing Parameters</h3>
+            <h3 className="font-bold text-slate-800 mb-4 text-sm uppercase tracking-wide">
+                2.1 Testing Parameters
+                <span className="block text-[10px] font-normal text-gray-400 capitalize">测试参数</span>
+            </h3>
             <div className="grid grid-cols-3 gap-4">
                 <div className="border border-gray-200 p-4 rounded bg-gray-50">
-                    <div className="text-xs text-gray-500 mb-1">Dielectric Strength</div>
+                    <div className="text-xs text-gray-500 mb-1">Dielectric Strength <span className="block text-[9px] text-gray-300">介电强度</span></div>
                     <div className="font-bold text-slate-800">1.5kV AC</div>
                     <div className="text-[10px] text-gray-400 mt-1">&lt;3.5mA leakage, 60s</div>
                 </div>
                 <div className="border border-gray-200 p-4 rounded bg-gray-50">
-                    <div className="text-xs text-gray-500 mb-1">Surge Immunity</div>
+                    <div className="text-xs text-gray-500 mb-1">Surge Immunity <span className="block text-[9px] text-gray-300">浪涌免疫</span></div>
                     <div className="font-bold text-slate-800">1kV (L-N)</div>
                     <div className="text-[10px] text-gray-400 mt-1">2kV (L/N-PE)</div>
                 </div>
                 <div className="border border-gray-200 p-4 rounded bg-gray-50">
-                    <div className="text-xs text-gray-500 mb-1">Lifetime (L70B50)</div>
+                    <div className="text-xs text-gray-500 mb-1">Lifetime (L70B50) <span className="block text-[9px] text-gray-300">使用寿命</span></div>
                     <div className="font-bold text-slate-800">50,000 hrs</div>
                     <div className="text-[10px] text-gray-400 mt-1">@ Ta=25°C</div>
                 </div>
@@ -963,24 +969,30 @@ const SpecSheet: React.FC<{ product: ProductConfig; customDescription?: string; 
 
         <div className="grid grid-cols-2 gap-12 mb-12">
           <div>
-                <h3 className="font-bold text-slate-800 mb-4 text-sm uppercase tracking-wide">2.2 Operating Conditions</h3>
+                <h3 className="font-bold text-slate-800 mb-4 text-sm uppercase tracking-wide">
+                    2.2 Operating Conditions
+                    <span className="block text-[10px] font-normal text-gray-400 capitalize">工作环境</span>
+                </h3>
                 <ul className="text-xs space-y-3">
                   <li className="flex justify-between border-b border-gray-100 pb-1">
-                      <span className="text-gray-500">Operating Temperature</span>
+                      <span className="text-gray-500">Operating Temperature <span className="block text-[9px] text-gray-300">工作温度</span></span>
                       <span className="font-medium">-20°C to +45°C</span>
                   </li>
                   <li className="flex justify-between border-b border-gray-100 pb-1">
-                      <span className="text-gray-500">Storage Temperature</span>
+                      <span className="text-gray-500">Storage Temperature <span className="block text-[9px] text-gray-300">存储温度</span></span>
                       <span className="font-medium">-40°C to +80°C</span>
                   </li>
                   <li className="flex justify-between border-b border-gray-100 pb-1">
-                      <span className="text-gray-500">Humidity</span>
+                      <span className="text-gray-500">Humidity <span className="block text-[9px] text-gray-300">湿度</span></span>
                       <span className="font-medium">10% - 90% RH</span>
                   </li>
                 </ul>
           </div>
           <div>
-                <h3 className="font-bold text-slate-800 mb-4 text-sm uppercase tracking-wide">2.3 Standards Compliance</h3>
+                <h3 className="font-bold text-slate-800 mb-4 text-sm uppercase tracking-wide">
+                    2.3 Standards Compliance
+                    <span className="block text-[10px] font-normal text-gray-400 capitalize">符合标准</span>
+                </h3>
                 <div className="flex flex-wrap gap-2">
                   {product.standards.map((std, i) => (
                       <span key={i} className="px-2 py-1 bg-gray-100 text-xs font-semibold text-gray-600 rounded">{std}</span>
@@ -994,7 +1006,10 @@ const SpecSheet: React.FC<{ product: ProductConfig; customDescription?: string; 
           </div>
 
           <div className="mb-8">
-            <h3 className="font-bold text-slate-800 mb-4 text-sm uppercase tracking-wide">2.4 Dimensional Drawing</h3>
+            <h3 className="font-bold text-slate-800 mb-4 text-sm uppercase tracking-wide">
+                2.4 Dimensional Drawing
+                <span className="block text-[10px] font-normal text-gray-400 capitalize">产品尺寸图</span>
+            </h3>
             <div className="flex justify-center items-center border border-gray-200 rounded p-8 bg-white">
               <div className="relative w-96 h-80">
                   {getProductTechnicalDrawing(product)}
